@@ -1,0 +1,30 @@
+# Enable mod_rewrite
+RewriteEngine On
+
+# Force HTTPS (redirect HTTP to HTTPS)
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove .php extension from the URL (redirect .php requests to clean URL)
+RewriteCond %{THE_REQUEST} \s/([^\s]+)\.php [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Remove .html extension from the URL (redirect .html requests to clean URL)
+RewriteCond %{THE_REQUEST} \s/([^\s]+)\.html [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Serve .php file when the URL without .php extension is requested
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php [L]
+
+# Serve .html file when the URL without .html extension is requested
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.html [L]
+
+# Custom error pages
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+ErrorDocument 500 /500.html

@@ -1,0 +1,29 @@
+[
+    {
+        "email": "aqeel.sathish@gmail.com",
+        "name": "Aqeel",
+        "lastname": "Sathish",
+        "password": "$2y$10$vB3N0IbrRmkJNAtxWJti9.OhFbLiYqkfvp8Zd.jlY3piCTBYt2sgG",
+        "country": "in",
+        "verification_token": "e3db5f087517cd007215897fca8b07c7",
+        "created_at": "2024-12-09 05:36:55"
+    },
+    {
+        "email": "a@a.com",
+        "name": "aads",
+        "lastname": "addacds",
+        "password": "$2y$10$2EXfPrAqt0vFWOa274xCxONpbsj7kJ56n7rWp3Wq5CoYE3NRGepVa",
+        "country": "in",
+        "verification_token": "259c65a539ba1adc5f9558d93cf15431",
+        "created_at": "2025-03-13 04:54:41"
+    },
+    {
+        "email": "dia230403@diaestudents.co",
+        "name": "Ansh",
+        "lastname": "Gupta",
+        "password": "$2y$10$.5PoBgCJIiooT2NfGPO8MeY05MR8dtmvnLCdb3zrfczgUAk1W5vv6",
+        "country": "in",
+        "verification_token": "fa52a7f5a26b0034eebadfe6de58672a",
+        "created_at": "2025-03-14 10:21:53"
+    }
+]

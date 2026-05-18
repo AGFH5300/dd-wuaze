@@ -1,0 +1,26 @@
+[
+    {
+        "email": "vihaanshukla22@gmail.com",
+        "name": "vihaan",
+        "lastname": "shukla",
+        "password": "$2y$10$L9GG\/aadWYFxb.neavzuSecWvgDygLn.q3c9ey5KJOkuGdQUifw66",
+        "country": "gb",
+        "created_at": "2024-12-09 00:48:28"
+    },
+    {
+        "email": "dia230403@diaestudents.com",
+        "name": "Ansh",
+        "lastname": "Gupta",
+        "password": "$2y$10$umH5w5P.wvyxY2VVQg2jjOoWj9v6f2Rapa73q18U4Y8Ekmetvd2Qu",
+        "country": "in",
+        "created_at": "2025-03-14 10:17:12"
+    },
+    {
+        "email": "jayshreelalpuria@gmail.com",
+        "name": "\u0906\u0936\u0940\u0937",
+        "lastname": "\u0932\u093e\u0932\u092a\u0941\u0930\u0940\u092f\u093e",
+        "password": "$2y$10$mkI0fj2dcKr2tA0R6xJ1eePPB1MOVe4kqCAOjGZS5sTrzRb8jZWG6",
+        "country": "in",
+        "created_at": "2025-08-13 12:52:30"
+    }
+]
